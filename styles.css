@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px; /* Adjust max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.row-items {
+    flex: 1;
+    gap: 10px;
+}
+
+.input-section, .inventory-section, .result-section {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.inventory-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.inventory-item select, .inventory-item input {
+    width: calc(50% - 10px); /* Adjust to fit within the inventory-item */
+}
+
+.inventory-item button {
+    width: calc(25% - 10px); /* Adjust to fit within the inventory-item */
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inventory-item button:hover {
+    background-color: #d32f2f;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.result-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.result-item span {
+    font-size: 16px;
+}

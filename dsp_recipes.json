@@ -1,0 +1,501 @@
+{
+    "ironIngot": {
+        "displayName": "Iron Ingot",
+        "imageUrl": "icons/Iron_Ingot.webp",
+        "inputs": {
+            "ironOre": 1
+        },
+        "outputs": [
+            {
+                "item": "ironIngot",
+                "quantity": 1
+            }
+        ],
+        "time": 1
+    },
+    "magnet": {
+        "displayName": "Magnet",
+        "imageUrl": "icons/Magnet.webp",
+        "inputs": {
+            "ironOre": 1
+        },
+        "outputs": [
+            {
+                "item": "magnet",
+                "quantity": 1
+            }
+        ],
+        "time": 1.5
+    },
+    "steel": {
+        "displayName": "Steel",
+        "imageUrl": "icons/Steel.webp",
+        "inputs": {
+            "ironIngot": 3
+        },
+        "outputs": [
+            {
+                "item": "steel",
+                "quantity": 1
+            }
+        ],
+        "time": 3
+    },
+    "gear": {
+        "displayName": "Gear",
+        "imageUrl": "icons/Gear.webp",
+        "inputs": {
+            "ironIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "gear",
+                "quantity": 1
+            }
+        ],
+        "time": 1
+    },
+    "copperIngot": {
+        "displayName": "Copper Ingot",
+        "imageUrl": "icons/Copper_Ingot.webp",
+        "inputs": {
+            "copperOre": 1
+        },
+        "outputs": [
+            {
+                "item": "copperIngot",
+                "quantity": 1
+            }
+        ],
+        "time": 1
+    },
+    "magneticCoil": {
+        "displayName": "Magnetic Coil",
+        "imageUrl": "icons/Magnetic_Coil.webp",
+        "inputs": {
+            "magnet": 2,
+            "copperIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "magneticCoil",
+                "quantity": 2
+            }
+        ],
+        "time": 1
+    },
+    "circuitBoard": {
+        "displayName": "Circuit Board",
+        "imageUrl": "icons/Circuit_Board.webp",
+        "inputs": {
+            "ironIngot": 2,
+            "copperIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "circuitBoard",
+                "quantity": 2
+            }
+        ],
+        "time": 1
+    },
+    "plasmaExciter": {
+        "displayName": "Plasma Exciter",
+        "imageUrl": "icons/Plasma_Exciter.webp",
+        "inputs": {
+            "magneticCoil": 4,
+            "prism": 2
+        },
+        "outputs": [
+            {
+                "item": "plasmaExciter",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "thruster": {
+        "displayName": "Thruster",
+        "imageUrl": "icons/Thruster.webp",
+        "inputs": {
+            "steel": 2,
+            "copperIngot": 3
+        },
+        "outputs": [
+            {
+                "item": "thruster",
+                "quantity": 1
+            }
+        ],
+        "time": 4
+    },
+    "logisticsDrone": {
+        "displayName": "Logistics Drone",
+        "imageUrl": "icons/Logistics_Drone.webp",
+        "inputs": {
+            "ironIngot": 5,
+            "processor": 2,
+            "thruster": 2
+        },
+        "outputs": [
+            {
+                "item": "logisticsDrone",
+                "quantity": 1
+            }
+        ],
+        "time": 4
+    },
+    "stoneBrick": {
+        "displayName": "Stone Brick",
+        "imageUrl": "icons/Stone_Brick.webp",
+        "inputs": {
+            "stone": 1
+        },
+        "outputs": [
+            {
+                "item": "stoneBrick",
+                "quantity": 1
+            }
+        ],
+        "time": 1
+    },
+    "glass": {
+        "displayName": "Glass",
+        "imageUrl": "icons/Glass.webp",
+        "inputs": {
+            "stone": 2
+        },
+        "outputs": [
+            {
+                "item": "glass",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "prism": {
+        "displayName": "Prism",
+        "imageUrl": "icons/Prism.webp",
+        "inputs": {
+            "glass": 3
+        },
+        "outputs": [
+            {
+                "item": "prism",
+                "quantity": 2
+            }
+        ],
+        "time": 2
+    },
+    "photonCombiner": {
+        "displayName": "Photon Combiner",
+        "imageUrl": "icons/Photon_Combiner.webp",
+        "inputs": {
+            "circuitBoard": 1,
+            "prism": 2
+        },
+        "outputs": [
+            {
+                "item": "photonCombiner",
+                "quantity": 2
+            }
+        ],
+        "time": 2
+    },
+    "reinforcedThruster": {
+        "displayName": "Reinforced Thruster",
+        "imageUrl": "icons/Reinforced_Thruster.webp",
+        "inputs": {
+            "titaniumAlloy": 5,
+            "electromagneticTurbine": 5
+        },
+        "outputs": [
+            {
+                "item": "reinforcedThruster",
+                "quantity": 1
+            }
+        ],
+        "time": 6
+    },
+    "interstellarLogisticsVessel": {
+        "displayName": "Interstellar Logistics Vessel",
+        "imageUrl": "icons/Interstellar_Logistics_Vessel.webp",
+        "inputs": {
+            "titaniumAlloy": 10,
+            "processor": 10,
+            "reinforcedThruster": 2
+        },
+        "outputs": [
+            {
+                "item": "interstellarLogisticsVessel",
+                "quantity": 2
+            }
+        ],
+        "time": 2
+    },
+    "energeticGraphite": {
+        "displayName": "Energetic Graphite",
+        "imageUrl": "icons/Energetic_Graphite.webp",
+        "inputs": {
+            "coal": 2
+        },
+        "outputs": [
+            {
+                "item": "energeticGraphite",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "diamond": {
+        "displayName": "Diamond",
+        "imageUrl": "icons/Diamond.webp",
+        "inputs": {
+            "energeticGraphite": 1
+        },
+        "outputs": [
+            {
+                "item": "diamond",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "electricMotor": {
+        "displayName": "Electric Motor",
+        "imageUrl": "icons/Electric_Motor.webp",
+        "inputs": {
+            "ironIngot": 2,
+            "gear": 1,
+            "magneticCoil": 1
+        },
+        "outputs": [
+            {
+                "item": "electricMotor",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "electromagneticTurbine": {
+        "displayName": "Electromagnetic Turbine",
+        "imageUrl": "icons/Electromagnetic_Turbine.webp",
+        "inputs": {
+            "electricMotor": 2,
+            "magneticCoil": 2
+        },
+        "outputs": [
+            {
+                "item": "electromagneticTurbine",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "highPuritySilicon": {
+        "displayName": "High-Purity Silicon",
+        "imageUrl": "icons/High-Purity_Silicon.webp",
+        "inputs": {
+            "siliconOre": 2
+        },
+        "outputs": [
+            {
+                "item": "highPuritySilicon",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "crystalSilicon": {
+        "displayName": "Crystal Silicon",
+        "imageUrl": "icons/Crystal_Silicon.webp",
+        "inputs": {
+            "highPuritySilicon": 1
+        },
+        "outputs": [
+            {
+                "item": "crystalSilicon",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "microcrystallineComponent": {
+        "displayName": "Microcrystalline Component",
+        "imageUrl": "icons/Microcrystalline_Component.webp",
+        "inputs": {
+            "highPuritySilicon": 2,
+            "copperIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "microcrystallineComponent",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "processor": {
+        "displayName": "Processor",
+        "imageUrl": "icons/Processor.webp",
+        "inputs": {
+            "circuitBoard": 2,
+            "microcrystallineComponent": 2
+        },
+        "outputs": [
+            {
+                "item": "processor",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "titaniumIngot": {
+        "displayName": "Titanium Ingot",
+        "imageUrl": "icons/Titanium_Ingot.webp",
+        "inputs": {
+            "titaniumOre": 2
+        },
+        "outputs": [
+            {
+                "item": "titaniumIngot",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "titaniumAlloy": {
+        "displayName": "Titanium Alloy",
+        "imageUrl": "icons/Titanium_Alloy.webp",
+        "inputs": {
+            "titaniumIngot": 4,
+            "steel": 4,
+            "sulfuricAcid": 8
+        },
+        "outputs": [
+            {
+                "item": "titaniumAlloy",
+                "quantity": 1
+            }
+        ],
+        "time": 2
+    },
+    "sulfuricAcid": {
+        "displayName": "Sulfuric Acid",
+        "imageUrl": "icons/Sulfuric_Acid.webp",
+        "inputs": {
+            "water": 4,
+            "stone": 8,
+            "refinedOil": 8
+        },
+        "outputs": [
+            {
+                "item": "sulfuricAcid",
+                "quantity": 4
+            }
+        ],
+        "time": 6
+    },
+    "refinedOil": {
+        "displayName": "Refined Oil",
+        "imageUrl": "icons/Refined_Oil.webp",
+        "inputs": {
+            "crudeOil": 1
+        },
+        "outputs": [
+            {
+                "item": "hydrogen",
+                "quantity": 1
+            },
+            {
+                "item": "refinedOil",
+                "quantity": 2
+            }
+        ],
+        "time": 4
+    },
+    "stone": {
+        "displayName": "Stone",
+        "imageUrl": "icons/Stone.webp",
+        "outputs": [
+            {
+                "item": "stone",
+                "quantity": 1
+            }
+        ]
+    },
+    "coal": {
+        "displayName": "Coal",
+        "imageUrl": "icons/Coal.webp",
+        "outputs": [
+            {
+                "item": "coal",
+                "quantity": 1
+            }
+        ]
+    },
+    "ironOre": {
+        "displayName": "Iron Ore",
+        "imageUrl": "icons/Iron_Ore.webp",
+        "outputs": [
+            {
+                "item": "ironOre",
+                "quantity": 1
+            }
+        ]
+    },
+    "siliconOre": {
+        "displayName": "Silicon Ore",
+        "imageUrl": "icons/Silicon_Ore.webp",
+        "outputs": [
+            {
+                "item": "siliconOre",
+                "quantity": 1
+            }
+        ]
+    },
+    "copperOre": {
+        "displayName": "Copper Ore",
+        "imageUrl": "icons/Copper_Ore.webp",
+        "outputs": [
+            {
+                "item": "copperOre",
+                "quantity": 1
+            }
+        ]
+    },
+    "water": {
+        "displayName": "Water",
+        "imageUrl": "icons/Water.webp",
+        "outputs": [
+            {
+                "item": "water",
+                "quantity": 1
+            }
+        ]
+    },
+    "crudeOil": {
+        "displayName": "Crude Oil",
+        "imageUrl": "icons/Crude_Oil.webp",
+        "outputs": [
+            {
+                "item": "hydrogen",
+                "quantity": 1
+            },
+            {
+                "item": "refinedOil",
+                "quantity": 2
+            }
+        ]
+    },
+    "titaniumOre": {
+        "displayName": "Titanium Ore",
+        "imageUrl": "icons/Titanium_Ore.webp",
+        "outputs": [
+            {
+                "item": "titaniumOre",
+                "quantity": 1
+            }
+        ]
+    }
+}
