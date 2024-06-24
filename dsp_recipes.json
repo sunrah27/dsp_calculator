@@ -386,7 +386,7 @@
         "inputs": {
             "water": 4,
             "stone": 8,
-            "refinedOil": 8
+            "refinedOil": 6
         },
         "outputs": [
             {

@@ -3,38 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crafting Calculator</title>
+    <title>DSP Crafting Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="roboto-regular">
     <div class="container">
-        <h1>Dyson Sphere Program Calculator</h1>
+        <h1 class="roboto-regular">Dyson Sphere Program Calculator</h1>
         <div class="wrapper">
             <div class="left-column">
                 <div class="input-section">
-                    <h2>Crafting Recipe</h2>
+                    <h2 class="roboto-regular">Crafting Recipe</h2>
                     <div class="input-row">
                         <div class="row-items">
-                            <label for="recipe">Select Recipe:</label>
-                            <select id="recipe"></select>
+                            <label for="recipe" class="roboto-regular">Select Recipe:</label>
+                            <select id="recipe" class="roboto-regular"></select>
                         </div>
                         <div class="row-items">
-                            <label for="quantity">Enter Quantity:</label>
-                            <input type="number" id="quantity" min="1" value="1">
+                            <label for="quantity" class="roboto-regular">Enter Quantity:</label>
+                            <input type="number" id="quantity" min="1" value="1" class="roboto-regular">
                         </div>
                     </div>
                 </div>
                 <div class="inventory-section">
-                    <h2>Inventory</h2>
-                    <div id="inventory"></div>
-                    <button id="addItem">Add Item</button>
+                    <h2 class="roboto-regular">Inventory</h2>
+                    <div id="inventory" class="roboto-regular"></div>
+                    <button id="addItem" class="roboto-regular">Add Item</button>
+                    <button id="calculate" class="roboto-regular">Calculate</button>
                 </div>
             </div>
             <div class="right-column">
                 <div class="result-section">
-                    <button id="calculate">Calculate</button>
-                    <h2>Results</h2>
-                    <div id="results"></div>
+                    <h2 class="roboto-regular">Results</h2>
+                    <div id="results" class="roboto-regular"></div>
                 </div>
             </div>
         </div>

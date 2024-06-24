@@ -2,15 +2,19 @@
 function calculateItems(recipes, itemName, quantity, resultsDiv, inventory, topLevel = true) {
     const recipe = recipes[itemName];
     const inputs = recipe.inputs;
+    const batchSize = recipe.outputs[0].quantity; // Get the batch size from outputs
 
     // Adjust quantity based on inventory
     let inventoryQuantity = inventory[itemName] || 0;
-    let adjustedQuantity = Math.max(0, quantity - inventoryQuantity);
-    inventory[itemName] = Math.max(0, inventoryQuantity - quantity);
+    let adjustedQuantity = Math.max(0, Math.ceil(quantity / batchSize)); // Calculate batches needed
+    let totalQuantity = adjustedQuantity * batchSize; // Total quantity required
+
+    // Adjust inventory
+    inventory[itemName] = Math.max(0, inventoryQuantity - totalQuantity);
 
     // Skip displaying the main recipe item if topLevel is true
     if (!topLevel) {
-        console.log(`${recipe.displayName} ${adjustedQuantity}`);
+        console.log(`${recipe.displayName} ${totalQuantity}`);
 
         // Create a div for each result item
         const resultItem = document.createElement('div');
@@ -23,10 +27,16 @@ function calculateItems(recipes, itemName, quantity, resultsDiv, inventory, topL
         imageElement.classList.add('item-image');
 
         // Create a span for item name and quantity
+        const itemQty = document.createElement('span');
+        itemQty.classList.add('itemQty');
+        itemQty.textContent = `${totalQuantity}`;
+        
         const itemText = document.createElement('span');
-        itemText.textContent = `${adjustedQuantity} ${recipe.displayName}`;
+        itemText.classList.add('itemText');
+        itemText.textContent = `${recipe.displayName}`;
 
         resultItem.appendChild(imageElement);
+        resultItem.appendChild(itemQty);
         resultItem.appendChild(itemText);
 
         // Append result item to resultsDiv
@@ -37,8 +47,8 @@ function calculateItems(recipes, itemName, quantity, resultsDiv, inventory, topL
     for (const inputItem in inputs) {
         if (inputs.hasOwnProperty(inputItem)) {
             const inputQuantity = inputs[inputItem];
-            const totalQuantity = inputQuantity * adjustedQuantity;
-            calculateItems(recipes, inputItem, totalQuantity, resultsDiv, inventory, false); // Pass false to skip topLevel item
+            const totalInputQuantity = inputQuantity * adjustedQuantity;
+            calculateItems(recipes, inputItem, totalInputQuantity, resultsDiv, inventory, false); // Pass false to skip topLevel item
         }
     }
 }
