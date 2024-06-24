@@ -3,7 +3,7 @@ import { addToInventory, getInventory } from './inventory.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // Fetch and parse the JSON file
-    const response = await fetch('dsp_recipes.json');
+    const response = await fetch('recipes.json');
     const recipes = await response.json();
 
     const recipeSelect = document.getElementById('recipe');
