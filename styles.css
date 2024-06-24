@@ -32,7 +32,7 @@ h1, .wrapper {
 }
 
 h2 {
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
 }
 
 .wrapper {
@@ -61,17 +61,28 @@ h2 {
 }
 
 .row-items {
-    flex: 1;
     gap: 10px;
 }
 
-.input-section, .inventory-section, .result-section {
-    margin-bottom: 20px;
+.row-items:first-child {
+    flex: 2;
 }
 
-.label {
+.row-items:last-child {
+    flex: 1;
+}
+
+#quantity {
+    text-align: right;
+}
+
+.input-section, .inventory-section, .result-section {
+    margin-bottom: 10px;
+}
+
+label {
     display: block;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 input, select, button {
@@ -79,15 +90,17 @@ input, select, button {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-sizing: border-box;
     height: 40px;
+    border-radius: 10px;
+
 }
 
 button {
     cursor: pointer;
     background-color: #f44336;
     color: white;
+    border: none;
 }
 
 button:hover {
