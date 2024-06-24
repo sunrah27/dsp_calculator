@@ -167,3 +167,13 @@ button:hover {
 .result-item:hover {
     background-color: #ccc;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-top: -15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
