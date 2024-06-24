@@ -718,8 +718,12 @@
         "displayName": "Universe Matrix",
         "imageUrl": "icons/Universe_Matrix.webp",
         "inputs": {
-            "stoneBrick": 3,
-            "steel": 1
+            "electromagneticMatrix": 1,
+            "energyMatrix": 1,
+            "structureMatrix": 1,
+            "informationMatrix": 1,
+            "gravityMatrix": 1,
+            "antimatter": 1 
         },
         "outputs": [
             {
@@ -825,6 +829,17 @@
         "time": 2,
         "category": "item"
     },
+    "darkFogMatrix": {
+        "displayName": "Dark Fog Matrix",
+        "imageUrl": "icons/Dark_Fog_Matrix.webp",
+        "outputs": [
+            {
+                "item": "darkFogMatrix",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
     "crudeOil": {
         "displayName": "Crude Oil",
         "imageUrl": "icons/Crude_Oil.webp",
@@ -857,6 +872,392 @@
             }
         ],
         "time": 4,
+        "category": "item"
+    },
+    "plastic": {
+        "displayName": "Plastic",
+        "imageUrl": "icons/Plastic.webp",
+        "inputs": {
+            "refinedOil": 2,
+            "energeticGraphite": 1
+        },
+        "outputs": [
+            {
+                "item": "plastic",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "item"
+    },
+    "strangeMatter": {
+        "displayName": "Strange Matter",
+        "imageUrl": "icons/Strange_Matter.webp",
+        "inputs": {
+            "particleContainer": 2,
+            "ironIngot": 2,
+            "deuterium": 10
+        },
+        "outputs": [
+            {
+                "item": "strangeMatter",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "item"
+    },
+    "casimirCrystal": {
+        "displayName": "Casimir Crystal",
+        "imageUrl": "icons/Casimir_Crystal.webp",
+        "inputs": {
+            "titaniumCrystal": 1,
+            "graphene": 2,
+            "hydrogen": 12
+        },
+        "outputs": [
+            {
+                "item": "casimirCrystal",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "precisionDrone": {
+        "displayName": "Precision Drone",
+        "imageUrl": "icons/Precision_Drone.webp",
+        "inputs": {
+            "prototype": 1,
+            "electromagneticTurbine": 2,
+            "circuitBoard": 12,
+            "photonCombiner": 2
+        },
+        "outputs": [
+            {
+                "item": "precisionDrone",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "solarSail": {
+        "displayName": "Solar Sail",
+        "imageUrl": "icons/Solar_Sail.webp",
+        "inputs": {
+            "graphene": 1,
+            "photonCombiner": 1
+        },
+        "outputs": [
+            {
+                "item": "solarSail",
+                "quantity": 2
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "energyShard": {
+        "displayName": "Energy Shard",
+        "imageUrl": "icons/Energy_Shard.webp",
+        "outputs": [
+            {
+                "item": "energyShard",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "hydrogen": {
+        "displayName": "Hydrogen",
+        "imageUrl": "icons/Hydrogen.webp",
+        "outputs": [
+            {
+                "item": "hydrogen",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "hydrogenFuelRod": {
+        "displayName": "Hydrogen Fuel Rod",
+        "imageUrl": "icons/Hydrogen_Fuel_Rod.webp",
+        "inputs": {
+            "titaniumIngot": 1,
+            "hydrogen": 10
+        },
+        "outputs": [
+            {
+                "item": "hydrogenFuelRod",
+                "quantity": 2
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "organicCrystal": {
+        "displayName": "Organic Crystal",
+        "imageUrl": "icons/Organic_Crystal.webp",
+        "inputs": {
+            "plastic": 2,
+            "refinedOil": 1,
+            "water": 1
+        },
+        "outputs": [
+            {
+                "item": "organicCrystal",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "titaniumCrystal": {
+        "displayName": "Titanium Crystal",
+        "imageUrl": "icons/Titanium_Crystal.webp",
+        "inputs": {
+            "refinedOil": 1,
+            "titaniumIngot": 3
+        },
+        "outputs": [
+            {
+                "item": "titaniumCrystal",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "titaniumGlass": {
+        "displayName": "Titanium Glass",
+        "imageUrl": "icons/Titanium_Glass.webp",
+        "inputs": {
+            "glass": 2,
+            "titaniumIngot": 2,
+            "water": 2
+        },
+        "outputs": [
+            {
+                "item": "titaniumGlass",
+                "quantity": 2
+            }
+        ],
+        "time": 5,
+        "category": "item"
+    },
+    "attackDrone": {
+        "displayName": "Attack Drone",
+        "imageUrl": "icons/Attack_Drone.webp",
+        "inputs": {
+            "prototype": 2,
+            "electromagneticTurbine": 1,
+            "processor": 1,
+            "plasmaExciter": 1
+        },
+        "outputs": [
+            {
+                "item": "attackDrone",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "frameMaterial": {
+        "displayName": "Frame Material",
+        "imageUrl": "icons/Frame_Material.webp",
+        "inputs": {
+            "carbonNanotube": 4,
+            "titaniumAlloy": 1,
+            "highPuritySilicon": 1
+        },
+        "outputs": [
+            {
+                "item": "frameMaterial",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "siliconBasedNeuron": {
+        "displayName": "Silicon-Based Neuron",
+        "imageUrl": "icons/Silicon-Based_Neuron.webp",
+        "outputs": [
+            {
+                "item": "siliconBasedNeuron",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "deuterium": {
+        "displayName": "Deuterium",
+        "imageUrl": "icons/Deuterium.webp",
+        "outputs": [
+            {
+                "item": "deuterium",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "deuteronFuelRod": {
+        "displayName": "Deuteron Fuel Rod",
+        "imageUrl": "icons/Deuteron_Fuel_Rod.webp",
+        "inputs": {
+            "titaniumAlloy": 1,
+            "deuterium": 1,
+            "superMagneticRing": 1
+        },
+        "outputs": [
+            {
+                "item": "deuteronFuelRod",
+                "quantity": 1
+            }
+        ],
+        "time": 12,
+        "category": "item"
+    },
+    "graphene": {
+        "displayName": "Graphene",
+        "imageUrl": "icons/Graphene.webp",
+        "inputs": {
+            "energeticGraphite": 3,
+            "sulfuricAcid": 1
+        },
+        "outputs": [
+            {
+                "item": "graphene",
+                "quantity": 2
+            }
+        ],
+        "time": 3,
+        "category": "item"
+    },
+    "carbonNanotube": {
+        "displayName": "Carbon Nanotube",
+        "imageUrl": "icons/Carbon_Nanotube.webp",
+        "inputs": {
+            "graphene": 3,
+            "titaniumIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "carbonNanotube",
+                "quantity": 2
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "planeFilter": {
+        "displayName": "Plane Filter",
+        "imageUrl": "icons/Plane Filter.webp",
+        "inputs": {
+            "casimirCrystal": 1,
+            "titaniumGlass": 2
+        },
+        "outputs": [
+            {
+                "item": "planeFilter",
+                "quantity": 1
+            }
+        ],
+        "time": 12,
+        "category": "item"
+    },
+    "corvette": {
+        "displayName": "Corvette",
+        "imageUrl": "icons/Corvette.webp",
+        "inputs": {
+            "titaniumAlloy": 5,
+            "reinforcedThruster": 1,
+            "processor": 2,
+            "particleContainer": 3
+        },
+        "outputs": [
+            {
+                "item": "corvette",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "item"
+    },
+    "dysonSphereComponent": {
+        "displayName": "Dyson Sphere Component",
+        "imageUrl": "icons/Dyson_Sphere_Component.webp",
+        "inputs": {
+            "frameMaterial": 2,
+            "solarSail": 3,
+            "processor": 3
+        },
+        "outputs": [
+            {
+                "item": "dysonSphereComponent",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "item"
+    },
+    "negentropySingularity": {
+        "displayName": "Negentropy Singularity",
+        "imageUrl": "icons/Negentropy_Singularity.webp",
+        "outputs": [
+            {
+                "item": "negentropySingularity",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "antimatter": {
+        "displayName": "Antimatter",
+        "imageUrl": "icons/Antimatter.webp",
+        "inputs": {
+            "criticalPhoton": 2
+        },
+        "outputs": [
+            {
+                "item": "antimatter",
+                "quantity": 2
+            },
+            {
+                "item": "hydrogen"
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+    "smallCarrierRocket": {
+        "displayName": "Small Carrier Rocket",
+        "imageUrl": "icons/Small_Carrier_Rocket.webp",
+        "inputs": {
+            "dysonSphereComponent": 2,
+            "deuteronFuelRod": 4,
+            "quantumChip": 2
+        },
+        "outputs": [
+            {
+                "item": "smallCarrierRocket",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "matterRecombinator": {
+        "displayName": "Matter Recombinator",
+        "imageUrl": "icons/Matter_Recombinator.webp",
+        "outputs": [
+            {
+                "item": "matterRecombinator",
+                "quantity": 1
+            }
+        ],
         "category": "item"
     }
 }
