@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const recipes = await response.json();
 
     const recipeSelect = document.getElementById('recipe');
-    const inventoryDiv = document.getElementById('inventory');
     const addItemButton = document.getElementById('addItem');
     const calculateButton = document.getElementById('calculate');
 

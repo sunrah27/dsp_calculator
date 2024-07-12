@@ -404,6 +404,21 @@
         "time": 2,
         "category": "item"
     },
+    "diamondA": {
+        "displayName": "Diamond (Advanced)",
+        "imageUrl": "icons/Diamond.webp",
+        "inputs": {
+            "kimberliteOre": 1
+        },
+        "outputs": [
+            {
+                "item": "diamond",
+                "quantity": 2
+            }
+        ],
+        "time": 1.5,
+        "category": "item"
+    },
     "electricMotor": {
         "displayName": "Electric Motor",
         "imageUrl": "icons/Electric_Motor.webp",
@@ -1605,5 +1620,160 @@
         ],
         "time": 8,
         "category": "item"
+    },
+    "kimberliteOre": {
+        "displayName": "Kimberlite Ore",
+        "imageUrl": "icons/Kimberlite_Ore.webp",
+        "outputs": [
+            {
+                "item": "kimberliteOre",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "fractalSilicon": {
+        "displayName": "Fractal Silicon",
+        "imageUrl": "icons/Fractal_Silicon.webp",
+        "outputs": [
+            {
+                "item": "fractalSilicon",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "gratingCrystal": {
+        "displayName": "Grating Crystal",
+        "imageUrl": "icons/Grating_Crystal.webp",
+        "outputs": [
+            {
+                "item": "gratingCrystal",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "spiniformStalagmiteCrystal": {
+        "displayName": "Spiniform Stalagmite Crystal",
+        "imageUrl": "icons/Spiniform_Stalagmite_Crystal.webp",
+        "outputs": [
+            {
+                "item": "spiniformStalagmiteCrystal",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "unipolarMagnet": {
+        "displayName": "Unipolar Magnet",
+        "imageUrl": "icons/Unipolar_Magnet.webp",
+        "outputs": [
+            {
+                "item": "unipolarMagnet",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "fireIce": {
+        "displayName": "Fire Ice",
+        "imageUrl": "icons/Fire_Ice.webp",
+        "outputs": [
+            {
+                "item": "fireIce",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "log": {
+        "displayName": "Log",
+        "imageUrl": "icons/Log.webp",
+        "outputs": [
+            {
+                "item": "log",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "plantFuel": {
+        "displayName": "Plant Fuel",
+        "imageUrl": "icons/Plant Fuel.webp",
+        "outputs": [
+            {
+                "item": "plantFuel",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "teslaTower": {
+        "displayName": "Tesla Tower",
+        "imageUrl": "icons/Tesla_Tower.webp",
+        "inputs": {
+            "ironIngot": 2,
+            "magneticCoil": 1
+        },
+        "outputs": [
+            {
+                "item": "teslaTower",
+                "quantity": 1
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "conveyorBeltMkI": {
+        "displayName": "Conveyor Belt Mk.I",
+        "imageUrl": "icons/Conveyor_Belt_Mk.I.webp",
+        "inputs": {
+            "gear": 1,
+            "ironIngot": 2
+        },
+        "outputs": [
+            {
+                "item": "conveyorBeltMkI",
+                "quantity": 3
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "planetaryLogisticsStation": {
+        "displayName": "Planetary Logistics Station",
+        "imageUrl": "icons/Planetary_Logistics_Station.webp",
+        "inputs": {
+            "steel": 40,
+            "titaniumIngot": 40,
+            "processor": 40,
+            "particleContainer": 20
+        },
+        "outputs": [
+            {
+                "item": "planetaryLogisticsStation",
+                "quantity": 1
+            }
+        ],
+        "time": 20,
+        "category": "building"
+    },
+    "interstellarLogisticsStation": {
+        "displayName": "Interstellar Logistics Station",
+        "imageUrl": "icons/Interstellar_Logistics_Station.webp",
+        "inputs": {
+            "planetaryLogisticsStation": 1,
+            "titaniumAlloy": 40,
+            "particleContainer": 20
+        },
+        "outputs": [
+            {
+                "item": "interstellarLogisticsStation",
+                "quantity": 1
+            }
+        ],
+        "time": 30,
+        "category": "building"
     }
 }

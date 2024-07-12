@@ -33,13 +33,13 @@ function calculateItems(recipes, itemName, quantity, resultsDiv, inventory, topL
         itemQty.classList.add('itemQty');
         itemQty.textContent = `${finalQuantity}`;
         
-        const itemText = document.createElement('span');
-        itemText.classList.add('itemText');
-        itemText.textContent = `${recipe.displayName}`;
+        //const itemText = document.createElement('span');
+        //itemText.classList.add('itemText');
+        //itemText.textContent = `${recipe.displayName}`;
 
         resultItem.appendChild(imageElement);
         resultItem.appendChild(itemQty);
-        resultItem.appendChild(itemText);
+        //resultItem.appendChild(itemText);
 
         // Append result item to resultsDiv
         resultsDiv.appendChild(resultItem);

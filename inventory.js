@@ -9,7 +9,7 @@ function addToInventory(recipes) {
     const quantityInput = document.createElement('input');
     quantityInput.type = 'number';
     quantityInput.min = '0';
-    quantityInput.value = '0';
+    quantityInput.value = '1';
 
     const removeButton = document.createElement('button');
     removeButton.textContent = 'Remove';
