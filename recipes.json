@@ -1226,10 +1226,96 @@
                 "quantity": 2
             },
             {
-                "item": "hydrogen"
+                "item": "hydrogen",
+                "quantity": 2
             }
         ],
         "time": 2,
+        "category": "item"
+    },
+    "antimatterFuelRod": {
+        "displayName": "Antimatter Fuel Rod",
+        "imageUrl": "icons/Antimatter_Fuel_Rod.webp",
+        "inputs": {
+            "antimatter": 2,
+            "hydrogen": 2,
+            "annihilationConstraintSphere": 1,
+            "titaniumAlloy": 1
+        },
+        "outputs": [
+            {
+                "item": "antimatterFuelRod",
+                "quantity": 2
+            }
+        ],
+        "time": 24,
+        "category": "item"
+    },
+    "annihilationConstraintSphere": {
+        "displayName": "Annihilation Constraint Sphere",
+        "imageUrl": "icons/Annihilation_Constraint_Sphere.webp",
+        "inputs": {
+            "particleContainer": 1,
+            "processor": 1
+        },
+        "outputs": [
+            {
+                "item": "antimatterFuelRod",
+                "quantity": 1
+            }
+        ],
+        "time": 20,
+        "category": "item"
+    },
+    "particleBroadband": {
+        "displayName": "Particle Broadband",
+        "imageUrl": "icons/Particle_Broadband.webp",
+        "inputs": {
+            "carbonNanotube": 2,
+            "crystalSilicon": 2,
+            "plastic": 1
+        },
+        "outputs": [
+            {
+                "item": "particleBroadband",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "item"
+    },
+    "quantumChip": {
+        "displayName": "Quantum Chip",
+        "imageUrl": "icons/Quantum_Chip.webp",
+        "inputs": {
+            "processor": 2,
+            "planeFilter": 2
+        },
+        "outputs": [
+            {
+                "item": "quantumChip",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "destroyer": {
+        "displayName": "Destroyer",
+        "imageUrl": "icons/Destroyer.webp",
+        "inputs": {
+            "frameMaterial": 20,
+            "reinforcedThruster": 4,
+            "processor": 4,
+            "strangematter": 1
+        },
+        "outputs": [
+            {
+                "item": "destroyer",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
         "category": "item"
     },
     "smallCarrierRocket": {
@@ -1258,6 +1344,266 @@
                 "quantity": 1
             }
         ],
+        "category": "item"
+    },
+    "coreElement": {
+        "displayName": "Core Element",
+        "imageUrl": "icons/Core_Element.webp",
+        "outputs": [
+            {
+                "item": "coreElement",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "strangeAnnihilationFuelRod": {
+        "displayName": "Strange Annihilation Fuel Rod",
+        "imageUrl": "icons/Strange_Annihilation_Fuel_Rod.webp",
+        "inputs": {
+            "antimatterFuleRod": 8,
+            "coreElement": 1,
+            "strangematter": 2,
+            "frameMaterial": 1
+        },
+        "outputs": [
+            {
+                "item": "strangeAnnihilationFuelRod",
+                "quantity": 1
+            }
+        ],
+        "time": 32,
+        "category": "item"
+    },
+    "magnumAmmoBox": {
+        "displayName": "Magnum Ammo Box",
+        "imageUrl": "icons/Magnum_Ammo_Box.webp",
+        "inputs": {
+            "copperIngot": 1
+        },
+        "outputs": [
+            {
+                "item": "magnumAmmoBox",
+                "quantity": 1
+            }
+        ],
+        "time": 1,
+        "category": "item"
+    },
+    "titaniumAmmoBox": {
+        "displayName": "Titanium Ammo Box",
+        "imageUrl": "icons/Titanium_Ammo_Box.webp",
+        "inputs": {
+            "magnumAmmoBox": 1,
+            "titaniumIngot": 2
+        },
+        "outputs": [
+            {
+                "item": "titaniumAmmoBox",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+    "superalloyAmmoBox": {
+        "displayName": "Superalloy Ammo Box",
+        "imageUrl": "icons/Superalloy_Ammo_Box.webp",
+        "inputs": {
+            "titaniumAmmoBox": 1,
+            "titaniumAlloy": 2
+        },
+        "outputs": [
+            {
+                "item": "superalloyAmmoBox",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "item"
+    },
+    "plasmaCapsule": {
+        "displayName": "Plasma Capsule",
+        "imageUrl": "icons/Plasma_Capsule.webp",
+        "inputs": {
+            "graphene": 1,
+            "magnet": 2,
+            "deuterium": 10
+        },
+        "outputs": [
+            {
+                "item": "plasmaCapsule",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+    "antimatterCapsule": {
+        "displayName": "Antimatter Capsule",
+        "imageUrl": "icons/Antimatter_Capsule.webp",
+        "inputs": {
+            "plasmaCapsule": 1,
+            "particleContainer": 1,
+            "hydrogen": 10,
+            "antimatter": 10
+        },
+        "outputs": [
+            {
+                "item": "antimatterCapsule",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+    "jammingCapsule": {
+        "displayName": "Jamming Capsule",
+        "imageUrl": "icons/Jamming_Capsule.webp",
+        "inputs": {
+            "electromagneticTurbine": 1,
+            "plasmaExciter": 1,
+            "hydrogen": 3
+        },
+        "outputs": [
+            {
+                "item": "jammingCapsule",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+
+    "criticalPhoton": {
+        "displayName": "Critical Photon",
+        "imageUrl": "icons/Critical_Photon.webp",
+        "outputs": [
+            {
+                "item": "criticalPhoton",
+                "quantity": 1
+            }
+        ],
+        "category": "item"
+    },
+    "missileSet": {
+        "displayName": "Missile Set",
+        "imageUrl": "icons/Missile_Set.webp",
+        "inputs": {
+            "copperIngot": 8,
+            "circuitBoard": 3,
+            "combustibleUnit": 2,
+            "engine": 1
+        },
+        "outputs": [
+            {
+                "item": "missileSet",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "item"
+    },
+    "supersonicMissileSet": {
+        "displayName": "Supersonic Missile Set",
+        "imageUrl": "icons/Supersonic_Missile_Set.webp",
+        "inputs": {
+            "missileSet": 2,
+            "processor": 6,
+            "explosiveUnit": 2,
+            "thruster": 2
+        },
+        "outputs": [
+            {
+                "item": "supersonicMissileSet",
+                "quantity": 2
+            }
+        ],
+        "time": 4,
+        "category": "item"
+    },
+    "gravityMissileSet": {
+        "displayName": "Gravity Missile Set",
+        "imageUrl": "icons/Gravity_Missile_Set.webp",
+        "inputs": {
+            "supersonicMissileSet": 3,
+            "crystalExplosiveUnit": 6,
+            "strangematter": 3
+        },
+        "outputs": [
+            {
+                "item": "gravityMissileSet",
+                "quantity": 3
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "shellSet": {
+        "displayName": "Shell Set",
+        "imageUrl": "icons/Shell_Set.webp",
+        "inputs": {
+            "copperIngot": 9,
+            "combustibleUnit": 2
+        },
+        "outputs": [
+            {
+                "item": "shellSet",
+                "quantity": 3
+            }
+        ],
+        "time": 1.5,
+        "category": "item"
+    },
+    "highExplosiveShellSet": {
+        "displayName": "High-Explosive Shell Set",
+        "imageUrl": "icons/High-Explosive_Shell_Set.webp",
+        "inputs": {
+            "shellSet": 1,
+            "titaniumIngot": 6,
+            "explosiveUnit": 2
+        },
+        "outputs": [
+            {
+                "item": "highExplosiveShellSet",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "item"
+    },
+    "crystalShellSet": {
+        "displayName": "Crystal Shell Set",
+        "imageUrl": "icons/Crystal_Shell_Set.webp",
+        "inputs": {
+            "highExplosiveShellSet": 1,
+            "titaniumAlloy": 3,
+            "crystalExplosiveUnit": 2
+        },
+        "outputs": [
+            {
+                "item": "crystalShellSet",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "item"
+    },
+    "suppressingCapsule": {
+        "displayName": "Suppressing Capsule",
+        "imageUrl": "icons/Suppressing_Capsule.webp",
+        "inputs": {
+            "jammingCapsule": 2,
+            "superMagneticRing": 1,
+            "titaniumGlass": 2
+        },
+        "outputs": [
+            {
+                "item": "suppressingCapsule",
+                "quantity": 2
+            }
+        ],
+        "time": 8,
         "category": "item"
     }
 }

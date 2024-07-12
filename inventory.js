@@ -1,9 +1,6 @@
 function addToInventory(recipes) {
-    console.log('Add Item button clicked');
     const inventoryDiv = document.getElementById('inventory');
-
     const itemSelect = document.createElement('select');
-
     const sortedRecipes = Object.keys(recipes).sort((a, b) => recipes[a].displayName.localeCompare(recipes[b].displayName));
     sortedRecipes.forEach(recipe => {
         itemSelect.innerHTML += `<option value="${recipe}">${recipes[recipe].displayName}</option>`;
@@ -38,6 +35,7 @@ function getInventory() {
         const quantityInput = itemDiv.querySelector('input');
         const itemName = itemSelect.value;
         const quantity = parseInt(quantityInput.value);
+
         if (itemName && !isNaN(quantity) && quantity > 0) {
             inventory[itemName] = (inventory[itemName] || 0) + quantity;
         }
