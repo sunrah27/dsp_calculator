@@ -1727,7 +1727,7 @@
     },
     "conveyorBeltMkI": {
         "displayName": "Conveyor Belt Mk.I",
-        "imageUrl": "icons/Conveyor_Belt_Mk.I.webp",
+        "imageUrl": "icons/Conveyor_Belt_MK.I.webp",
         "inputs": {
             "gear": 1,
             "ironIngot": 2
@@ -1739,6 +1739,921 @@
             }
         ],
         "time": 3,
+        "category": "building"
+    },
+    "sorterMkI": {
+        "displayName": "Sorter MK.I",
+        "imageUrl": "icons/Sorter_MK.I.webp",
+        "inputs": {
+            "ironIngot": 1,
+            "circuitBoard": 1
+        },
+        "outputs": [
+            {
+                "item": "sorterMkI",
+                "quantity": 1
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "arcSmelter": {
+        "displayName": "Arc Smelter",
+        "imageUrl": "icons/Arc_Smelter.webp",
+        "inputs": {
+            "ironIngot": 4,
+            "stoneBrick": 2,
+            "circuitBoard": 4,
+            "magneticCoil": 2
+        },
+        "outputs": [
+            {
+                "item": "arcSmelter",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "gaussTurret": {
+        "displayName": "Gauss Turret",
+        "imageUrl": "icons/Gauss_Turret.webp",
+        "inputs": {
+            "ironIngot": 9,
+            "gear": 8,
+            "circuitBoard": 2,
+            "magneticCoil": 4
+        },
+        "outputs": [
+            {
+                "item": "gaussTurret",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "wirelessPowerTower": {
+        "displayName": "Wireless Power Tower",
+        "imageUrl": "icons/Wireless_Power_Tower.webp",
+        "inputs": {
+            "teslaTower": 2,
+            "plasmaExciter": 2
+        },
+        "outputs": [
+            {
+                "item": "wirelessPowerTower",
+                "quantity": 1
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "conveyorBeltMkII": {
+        "displayName": "Conveyor Belt Mk.II",
+        "imageUrl": "icons/Conveyor_Belt_MK.II.webp",
+        "inputs": {
+            "conveyorBeltMkI": 3,
+            "electromagneticTurbine": 1
+        },
+        "outputs": [
+            {
+                "item": "conveyorBeltMkII",
+                "quantity": 3
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "sorterMkII": {
+        "displayName": "Sorter Mk.II",
+        "imageUrl": "icons/Sorter_MK.II.webp",
+        "inputs": {
+            "sorterMkI": 2,
+            "electricMotor": 1
+        },
+        "outputs": [
+            {
+                "item": "sorterMkII",
+                "quantity": 2
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "planeSmelter": {
+        "displayName": "Plane Smelter",
+        "imageUrl": "icons/Plane_Smelter.webp",
+        "inputs": {
+            "arcSmelter": 1,
+            "frameMaterial": 5,
+            "planeFilter": 4,
+            "unipolarMagnet": 15
+        },
+        "outputs": [
+            {
+                "item": "planeSmelter",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "missileTurret": {
+        "displayName": "Missile Turret",
+        "imageUrl": "icons/Missile_Turret.webp",
+        "inputs": {
+            "steel": 8,
+            "electricMotor": 6,
+            "circuitBoard": 12,
+            "engine": 6
+        },
+        "outputs": [
+            {
+                "item": "missileTurret",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "satelliteSubstation": {
+        "displayName": "Satellite Substation",
+        "imageUrl": "icons/Satellite_substationrret.webp",
+        "inputs": {
+            "wirelessPowerTower": 1,
+            "superMagneticRing": 10,
+            "frameMaterial": 2
+        },
+        "outputs": [
+            {
+                "item": "satelliteSubstation",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "conveyorBeltMkIII": {
+        "displayName": "Conveyor Belt Mk.III",
+        "imageUrl": "icons/Conveyor_Belt_MK.III.webp",
+        "inputs": {
+            "conveyorBeltMkII": 3,
+            "superMagneticRing": 1,
+            "graphene": 1
+        },
+        "outputs": [
+            {
+                "item": "conveyorBeltMkIII",
+                "quantity": 3
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "sorterMkIII": {
+        "displayName": "Sorter Mk.III",
+        "imageUrl": "icons/Sorter_MK.III.bmp",
+        "inputs": {
+            "sorterMkII": 2,
+            "electromagneticTurbine": 1
+        },
+        "outputs": [
+            {
+                "item": "sorterMkIII",
+                "quantity": 2
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "negentropySmelter": {
+        "displayName": "Negentropy Smelter",
+        "imageUrl": "icons/Negentropy_Smelter.webp",
+        "inputs": {
+            "planeSmelter": 2,
+            "negentropySingularity": 1,
+            "energyShard": 30,
+            "quantumChip": 4
+        },
+        "outputs": [
+            {
+                "item": "negentropySmelter",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "implosionCannon": {
+        "displayName": "Implosion Cannon",
+        "imageUrl": "icons/Implosion_Cannon.webp",
+        "inputs": {
+            "steel": 10,
+            "electricMotor": 8,
+            "circuitBoard": 10,
+            "superMagneticRing": 2
+        },
+        "outputs": [
+            {
+                "item": "implosionCannon",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "windTurbine": {
+        "displayName": "Wind Turbine",
+        "imageUrl": "icons/Wind_Turbine.webp",
+        "inputs": {
+            "ironIngot": 6,
+            "gear": 1,
+            "magneticCoil": 3
+        },
+        "outputs": [
+            {
+                "item": "windTurbine",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "splitter": {
+        "displayName": "Splitter",
+        "imageUrl": "icons/Splitter.webp",
+        "inputs": {
+            "ironIngot": 3,
+            "gear": 2,
+            "circuitBoard": 1
+        },
+        "outputs": [
+            {
+                "item": "splitter",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "pileSorter": {
+        "displayName": "Pile Sorter",
+        "imageUrl": "icons/Pile_Sorter.webp",
+        "inputs": {
+            "sorterMkII": 2,
+            "superMagneticRing": 1,
+            "processor": 1
+        },
+        "outputs": [
+            {
+                "item": "pileSorter",
+                "quantity": 1
+            }
+        ],
+        "time": 1,
+        "category": "building"
+    },
+    "assemblingMachineMkI": {
+        "displayName": "Assembling Machine Mk.I",
+        "imageUrl": "icons/Assembling Machine Mk.I.webp",
+        "inputs": {
+            "ironIngot": 4,
+            "gear": 8,
+            "circuitBoard": 4
+        },
+        "outputs": [
+            {
+                "item": "assemblingMachineMkI",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "laserTurret": {
+        "displayName": "Laser Turret",
+        "imageUrl": "icons/Laser_Turret.webp",
+        "inputs": {
+            "steel": 9,
+            "plasmaExciter": 6,
+            "superMagneticRing": 10,
+            "circuitBoard": 6,
+            "photonCombiner": 9
+        },
+        "outputs": [
+            {
+                "item": "laserTurret",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "thermalPowerPlant": {
+        "displayName": "Thermal Power Plant",
+        "imageUrl": "icons/Thermal_Power_Plant.webp",
+        "inputs": {
+            "ironIngot": 10,
+            "stoneBrick": 4,
+            "gear": 4,
+            "magneticCoil": 4
+        },
+        "outputs": [
+            {
+                "item": "thermalPowerPlant",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "automatiPiler": {
+        "displayName": "Automatic Piler",
+        "imageUrl": "icons/Automatic_Piler.webp",
+        "inputs": {
+            "steel": 3,
+            "gear": 4,
+            "superMagneticRing": 1,
+            "processor": 2
+        },
+        "outputs": [
+            {
+                "item": "automatiPiler",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "miningMachine": {
+        "displayName": "Mining Machine",
+        "imageUrl": "icons/Mining Machine.webp",
+        "inputs": {
+            "ironIngot": 3,
+            "circuitBoard": 2,
+            "magneticCoil": 2,
+            "gear": 2
+        },
+        "outputs": [
+            {
+                "item": "miningMachine",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "assemblingMachineMkII": {
+        "displayName": "Assembling Machine Mk.II",
+        "imageUrl": "icons/Assembling Machine Mk.II.webp",
+        "inputs": {
+            "assemblingMachineMkI": 1,
+            "graphene": 8,
+            "processor": 4
+        },
+        "outputs": [
+            {
+                "item": "assemblingMachineMkII",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "plasmaTurret": {
+        "displayName": "Plasma Turret",
+        "imageUrl": "icons/Plasma_Turret.webp",
+        "inputs": {
+            "titaniumAlloy": 20,
+            "titaniumGlass": 10,
+            "superMagneticRing": 10,
+            "plasmaExciter": 5,
+            "processor": 5
+        },
+        "outputs": [
+            {
+                "item": "plasmaTurret",
+                "quantity": 1
+            }
+        ],
+        "time": 10,
+        "category": "building"
+    },
+    "solarPanel": {
+        "displayName": "Solar Panel",
+        "imageUrl": "icons/Solar_Panel.webp",
+        "inputs": {
+            "copperIngot": 10,
+            "highPuritySilicon": 10,
+            "circuitBoard": 8
+        },
+        "outputs": [
+            {
+                "item": "solarPanel",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "trafficMonitor": {
+        "displayName": "Traffic Monitor",
+        "imageUrl": "icons/Traffic Monitor.webp",
+        "inputs": {
+            "ironIngot": 3,
+            "gear": 2,
+            "glass": 1,
+            "circuitBoard": 2
+        },
+        "outputs": [
+            {
+                "item": "trafficMonitor",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "advancedMiningMachine": {
+        "displayName": "Advanced Mining Machine",
+        "imageUrl": "icons/Advanced_Mining_Machine.webp",
+        "inputs": {
+            "titaniumAlloy": 20,
+            "frameMaterial": 10,
+            "superMagneticRing": 10,
+            "quantumChip": 10,
+            "gratingCrystal": 40
+        },
+        "outputs": [
+            {
+                "item": "advancedMiningMachine",
+                "quantity": 1
+            }
+        ],
+        "time": 20,
+        "category": "building"
+    },
+    "assemblingMachineMkIII": {
+        "displayName": "Assembling Machine Mk.III",
+        "imageUrl": "icons/Assembling Machine Mk.III.webp",
+        "inputs": {
+            "assemblingMachineMkII": 4,
+            "particleBroadband": 8,
+            "quantumChip": 2
+        },
+        "outputs": [
+            {
+                "item": "assemblingMachineMkIII",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "sRPlasmaTurret": {
+        "displayName": "SR Plasma Turret",
+        "imageUrl": "icons/SR_Plasma_Turret.webp",
+        "inputs": {
+            "steel": 15,
+            "superMagneticRing": 5,
+            "plasmaExciter": 5,
+            "processor": 5
+        },
+        "outputs": [
+            {
+                "item": "sRPlasmaTurret",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "building"
+    },
+    "geothermalPowerStation": {
+        "displayName": "Geothermal Power Station",
+        "imageUrl": "icons/Geothermal_Power_Station.webp",
+        "inputs": {
+            "steel": 15,
+            "copperIngot": 20,
+            "photonCombiner": 4,
+            "superMagneticRing": 1
+        },
+        "outputs": [
+            {
+                "item": "geothermalPowerStation",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "sprayCoater": {
+        "displayName": "Spray Coater",
+        "imageUrl": "icons/Spray_Coater.webp",
+        "inputs": {
+            "steel": 4,
+            "plasmaExciter": 2,
+            "circuitBoard": 2,
+            "microcrystallineComponent": 2
+        },
+        "outputs": [
+            {
+                "item": "sprayCoater",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "waterPump": {
+        "displayName": "Water Pump",
+        "imageUrl": "icons/Water_Pump.webp",
+        "inputs": {
+            "ironIngot": 8,
+            "stoneBrick": 4,
+            "electricMotor": 4,
+            "circuitBoard": 2
+        },
+        "outputs": [
+            {
+                "item": "waterPump",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "reComposingAssembler": {
+        "displayName": "Re-composing Assembler",
+        "imageUrl": "icons/Re-Composing_Assembler.webp",
+        "inputs": {
+            "assemblingMachineMkIII": 1,
+            "matterRecombinator": 10,
+            "energyShard": 30,
+            "quantumChip": 4
+        },
+        "outputs": [
+            {
+                "item": "reComposingAssembler",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "battlefieldAnalysisBase": {
+        "displayName": "Battlefield Analysis Base",
+        "imageUrl": "icons/Battlefield_Analysis_Base.webp",
+        "inputs": {
+            "steel": 12,
+            "circuitBoard": 18,
+            "microcrystallineComponent": 6,
+            "engine": 12
+        },
+        "outputs": [
+            {
+                "item": "battlefieldAnalysisBase",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "miniFusionPowerPlant": {
+        "displayName": "Mini Fusion Power Plant",
+        "imageUrl": "icons/Mini_Fusion_Power_Plant.webp",
+        "inputs": {
+            "titaniumAlloy": 12,
+            "superMagneticRing": 10,
+            "carbonNanotube": 8,
+            "processor": 4
+        },
+        "outputs": [
+            {
+                "item": "miniFusionPowerPlant",
+                "quantity": 1
+            }
+        ],
+        "time": 10,
+        "category": "building"
+    },
+    "depotMkI": {
+        "displayName": "Depot Mk.I",
+        "imageUrl": "icons/Depot_Mk.I.webp",
+        "inputs": {
+            "titaniumAlloy": 12,
+            "superMagneticRing": 10,
+            "carbonNanotube": 8,
+            "processor": 4
+        },
+        "outputs": [
+            {
+                "item": "depotMkI",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "oilExtractor": {
+        "displayName": "Oil Extractor",
+        "imageUrl": "icons/Oil_Extractor.webp",
+        "inputs": {
+            "steel": 12,
+            "stoneBrick": 12,
+            "circuitBoard": 6,
+            "plasmaExciter": 4
+        },
+        "outputs": [
+            {
+                "item": "oilExtractor",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "building"
+    },
+    "matrixLab": {
+        "displayName": "Matrix Lab",
+        "imageUrl": "icons/Matrix_Lab.webp",
+        "inputs": {
+            "ironIngot": 8,
+            "glass": 4,
+            "circuitBoard": 4,
+            "magneticCoil": 4
+        },
+        "outputs": [
+            {
+                "item": "matrixLab",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "jammerTower": {
+        "displayName": "Jammer Tower",
+        "imageUrl": "icons/Jammer_Tower.webp",
+        "inputs": {
+            "copperIngot": 12,
+            "plasmaExciter": 9,
+            "diamond": 6,
+            "processor": 3
+        },
+        "outputs": [
+            {
+                "item": "jammerTower",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "energyExchanger": {
+        "displayName": "Energy Exchanger",
+        "imageUrl": "icons/Energy_Exchanger.webp",
+        "inputs": {
+            "titaniumAlloy": 40,
+            "steel": 40,
+            "processor": 40,
+            "particleContainer": 8
+        },
+        "outputs": [
+            {
+                "item": "energyExchanger",
+                "quantity": 1
+            }
+        ],
+        "time": 15,
+        "category": "building"
+    },
+    "depotMkII": {
+        "displayName": "Depot Mk.II",
+        "imageUrl": "icons/Depot_Mk.II.webp",
+        "inputs": {
+            "steel": 8,
+            "stoneBrick": 8
+        },
+        "outputs": [
+            {
+                "item": "depotMkII",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "oilRefinery": {
+        "displayName": "Oil Refinery",
+        "imageUrl": "icons/Oil_Refinery.webp",
+        "inputs": {
+            "steel": 10,
+            "stoneBrick": 10,
+            "circuitBoard": 6,
+            "plasmaExciter": 6
+        },
+        "outputs": [
+            {
+                "item": "oilRefinery",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "selfEvolutionLab": {
+        "displayName": "Self-Evolution Lab",
+        "imageUrl": "icons/Self-Evolution_Lab.webp",
+        "inputs": {
+            "matrixLab": 1,
+            "siliconBasedNeuron": 10,
+            "darkFogMatrix": 20,
+            "quantumChip": 4
+        },
+        "outputs": [
+            {
+                "item": "selfEvolutionLab",
+                "quantity": 1
+            }
+        ],
+        "time": 4,
+        "category": "building"
+    },
+    "signalTower": {
+        "displayName": "Signal Tower",
+        "imageUrl": "icons/Signal_Tower.webp",
+        "inputs": {
+            "wirelessPowerTower": 2,
+            "steel": 12,
+            "crystalSilicon": 6
+        },
+        "outputs": [
+            {
+                "item": "signalTower",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "accumulator": {
+        "displayName": "Accumulator",
+        "imageUrl": "icons/Accumulator.webp",
+        "inputs": {
+            "ironIngot": 6,
+            "superMagneticRing": 1,
+            "crystalSilicon": 3
+        },
+        "outputs": [
+            {
+                "item": "accumulator",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "storageTank": {
+        "displayName": "Storage Tank",
+        "imageUrl": "icons/Storage_Tank.webp",
+        "inputs": {
+            "ironIngot": 8,
+            "stoneBrick": 4,
+            "glass": 4
+        },
+        "outputs": [
+            {
+                "item": "storageTank",
+                "quantity": 1
+            }
+        ],
+        "time": 2,
+        "category": "building"
+    },
+    "fractionator": {
+        "displayName": "Fractionator",
+        "imageUrl": "icons/Fractionator.webp",
+        "inputs": {
+            "steel": 8,
+            "stoneBrick": 4,
+            "glass": 4,
+            "processor": 1
+        },
+        "outputs": [
+            {
+                "item": "fractionator",
+                "quantity": 1
+            }
+        ],
+        "time": 3,
+        "category": "building"
+    },
+    "eMRailEjector": {
+        "displayName": "EM-Rail Ejector",
+        "imageUrl": "icons/EM-Rail_Ejector.webp",
+        "inputs": {
+            "steel": 20,
+            "gear": 20,
+            "processor": 5,
+            "superMagneticRing": 10
+        },
+        "outputs": [
+            {
+                "item": "eMRailEjector",
+                "quantity": 1
+            }
+        ],
+        "time": 6,
+        "category": "building"
+    },
+    "planetaryShieldGenerator": {
+        "displayName": "Planetary Shield Generator",
+        "imageUrl": "icons/Planetary_Shield_Generator.webp",
+        "inputs": {
+            "steel": 20,
+            "electromagneticTurbine": 20,
+            "superMagneticRing": 5,
+            "particleContainer": 5
+        },
+        "outputs": [
+            {
+                "item": "planetaryShieldGenerator",
+                "quantity": 1
+            }
+        ],
+        "time": 10,
+        "category": "building"
+    },
+    "logisticsDistributor": {
+        "displayName": "Logistics Distributor",
+        "imageUrl": "icons/Logistics_Distributor.webp",
+        "inputs": {
+            "ironIngot": 8,
+            "plasmaExciter": 4,
+            "processor": 4
+        },
+        "outputs": [
+            {
+                "item": "logisticsDistributor",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
+        "category": "building"
+    },
+    "chemicalPlant": {
+        "displayName": "Chemical Plant",
+        "imageUrl": "icons/Chemical_Plant.webp",
+        "inputs": {
+            "steel": 8,
+            "stoneBrick": 8,
+            "glass": 8,
+            "circuitBoard": 2
+        },
+        "outputs": [
+            {
+                "item": "chemicalPlant",
+                "quantity": 1
+            }
+        ],
+        "time": 5,
+        "category": "building"
+    },
+    "verticalLaunchingSilo": {
+        "displayName": "Vertical Launching Silo",
+        "imageUrl": "icons/Vertical_Launching_Silo.webp",
+        "inputs": {
+            "titaniumAlloy": 80,
+            "frameMaterial": 30,
+            "gravitonLens": 20,
+            "quantumChip": 10
+        },
+        "outputs": [
+            {
+                "item": "verticalLaunchingSilo",
+                "quantity": 1
+            }
+        ],
+        "time": 30,
+        "category": "building"
+    },
+    "rayReceiver": {
+        "displayName": "Ray Receiver",
+        "imageUrl": "icons/Ray_Receiver.webp",
+        "inputs": {
+            "steel": 20,
+            "highPuritySilicon": 20,
+            "photonCombiner": 10,
+            "processor": 5,
+            "superMagneticRing": 20
+        },
+        "outputs": [
+            {
+                "item": "rayReceiver",
+                "quantity": 1
+            }
+        ],
+        "time": 8,
         "category": "building"
     },
     "planetaryLogisticsStation": {
@@ -1759,6 +2674,42 @@
         "time": 20,
         "category": "building"
     },
+    "quantumChemicalPlant": {
+        "displayName": "Quantum Chemical Plant",
+        "imageUrl": "icons/Quantum Chemical Planttion.webp",
+        "inputs": {
+            "chemicalPlant": 1,
+            "titaniumGlass": 10,
+            "strangematter": 3,
+            "quantumChip": 3
+        },
+        "outputs": [
+            {
+                "item": "quantumChemicalPlant",
+                "quantity": 1
+            }
+        ],
+        "time": 10,
+        "category": "building"
+    },
+    "artificialStar": {
+        "displayName": "Artificial Star",
+        "imageUrl": "icons/Artificial_Star.webp",
+        "inputs": {
+            "titaniumAlloy": 20,
+            "frameMaterial": 20,
+            "annihilationConstraintSphere": 10,
+            "quantumChip": 10
+        },
+        "outputs": [
+            {
+                "item": "artificialStar",
+                "quantity": 1
+            }
+        ],
+        "time": 30,
+        "category": "building"
+    },
     "interstellarLogisticsStation": {
         "displayName": "Interstellar Logistics Station",
         "imageUrl": "icons/Interstellar_Logistics_Station.webp",
@@ -1770,6 +2721,43 @@
         "outputs": [
             {
                 "item": "interstellarLogisticsStation",
+                "quantity": 1
+            }
+        ],
+        "time": 30,
+        "category": "building"
+    },
+    "miniatureParticleCollider": {
+        "displayName": "Miniature Particle Collider",
+        "imageUrl": "icons/Miniature_Particle_Collider.webp",
+        "inputs": {
+            "titaniumAlloy": 20,
+            "frameMaterial": 20,
+            "superMagneticRing": 25,
+            "graphene": 10,
+            "processor": 8
+        },
+        "outputs": [
+            {
+                "item": "miniatureParticleCollider",
+                "quantity": 1
+            }
+        ],
+        "time": 15,
+        "category": "building"
+    },
+    "orbitalCollector": {
+        "displayName": "Orbital Collector",
+        "imageUrl": "icons/Orbital_Collector.webp",
+        "inputs": {
+            "interstellarLogisticsStation": 1,
+            "superMagneticRing": 30,
+            "reinforcedThruster": 30,
+            "accumulator": 10
+        },
+        "outputs": [
+            {
+                "item": "orbitalCollector",
                 "quantity": 1
             }
         ],
