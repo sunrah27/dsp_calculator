@@ -1376,7 +1376,7 @@
         "displayName": "Strange Annihilation Fuel Rod",
         "imageUrl": "icons/Strange_Annihilation_Fuel_Rod.webp",
         "inputs": {
-            "antimatterFuleRod": 8,
+            "antimatterFuelRod": 8,
             "coreElement": 1,
             "strangematter": 2,
             "frameMaterial": 1
