@@ -2751,9 +2751,9 @@
         "imageUrl": "icons/Orbital_Collector.webp",
         "inputs": {
             "interstellarLogisticsStation": 1,
-            "superMagneticRing": 30,
-            "reinforcedThruster": 30,
-            "accumulator": 10
+            "superMagneticRing": 50,
+            "reinforcedThruster": 20,
+            "accumulator": 20
         },
         "outputs": [
             {
