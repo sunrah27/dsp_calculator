@@ -1169,7 +1169,7 @@
     },
     "planeFilter": {
         "displayName": "Plane Filter",
-        "imageUrl": "icons/Plane Filter.webp",
+        "imageUrl": "icons/Plane_Filter.webp",
         "inputs": {
             "casimirCrystal": 1,
             "titaniumGlass": 2
