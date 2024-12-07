@@ -2016,7 +2016,7 @@
     },
     "assemblingMachineMkI": {
         "displayName": "Assembling Machine Mk.I",
-        "imageUrl": "icons/Assembling_Machine_Mk.I.webp",
+        "imageUrl": "icons/Assembling_Machine_MkI.webp",
         "inputs": {
             "ironIngot": 4,
             "gear": 8,
@@ -2106,7 +2106,7 @@
     },
     "assemblingMachineMkII": {
         "displayName": "Assembling Machine Mk.II",
-        "imageUrl": "icons/Assembling_Machine_Mk.II.webp",
+        "imageUrl": "icons/Assembling_Machine_MkII.webp",
         "inputs": {
             "assemblingMachineMkI": 1,
             "graphene": 8,
@@ -2196,7 +2196,7 @@
     },
     "assemblingMachineMkIII": {
         "displayName": "Assembling Machine Mk.III",
-        "imageUrl": "icons/Assembling_Machine_Mk.III.webp",
+        "imageUrl": "icons/Assembling_Machine_MkIII.webp",
         "inputs": {
             "assemblingMachineMkII": 1,
             "particleBroadband": 8,
