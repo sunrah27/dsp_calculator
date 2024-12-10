@@ -595,7 +595,7 @@
         "imageUrl": "icons/Graviton_Lens.webp",
         "inputs": {
             "diamond": 4,
-            "strangematter": 2
+            "strangeMatter": 2
         },
         "outputs": [
             {
@@ -1322,7 +1322,7 @@
             "frameMaterial": 20,
             "reinforcedThruster": 4,
             "processor": 4,
-            "strangematter": 1
+            "strangeMatter": 1
         },
         "outputs": [
             {
@@ -1378,7 +1378,7 @@
         "inputs": {
             "antimatterFuelRod": 8,
             "coreElement": 1,
-            "strangematter": 2,
+            "strangeMatter": 2,
             "frameMaterial": 1
         },
         "outputs": [
@@ -1543,7 +1543,7 @@
         "inputs": {
             "supersonicMissileSet": 3,
             "crystalExplosiveUnit": 6,
-            "strangematter": 3
+            "strangeMatter": 3
         },
         "outputs": [
             {
@@ -2680,7 +2680,7 @@
         "inputs": {
             "chemicalPlant": 1,
             "titaniumGlass": 10,
-            "strangematter": 3,
+            "strangeMatter": 3,
             "quantumChip": 3
         },
         "outputs": [
