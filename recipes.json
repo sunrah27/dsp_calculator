@@ -2676,7 +2676,7 @@
     },
     "quantumChemicalPlant": {
         "displayName": "Quantum Chemical Plant",
-        "imageUrl": "icons/Quantum Chemical Planttion.webp",
+        "imageUrl": "icons/Quantum_Chemical_Plant.webp",
         "inputs": {
             "chemicalPlant": 1,
             "titaniumGlass": 10,
