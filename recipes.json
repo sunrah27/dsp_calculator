@@ -486,7 +486,7 @@
     },
     "informationMatrix": {
         "displayName": "Information Matrix",
-        "imageUrl": "icons/Information Matrix.webp",
+        "imageUrl": "icons/Information_Matrix.webp",
         "inputs": {
             "processor": 2,
             "particleBroadband": 1
@@ -1700,7 +1700,7 @@
     },
     "plantFuel": {
         "displayName": "Plant Fuel",
-        "imageUrl": "icons/Plant Fuel.webp",
+        "imageUrl": "icons/Plant_Fuel.webp",
         "outputs": [
             {
                 "item": "plantFuel",
@@ -1743,7 +1743,7 @@
     },
     "sorterMkI": {
         "displayName": "Sorter MK.I",
-        "imageUrl": "icons/Sorter_MK.I.webp",
+        "imageUrl": "icons/Sorter_MkI.webp",
         "inputs": {
             "ironIngot": 1,
             "circuitBoard": 1
@@ -1827,7 +1827,7 @@
     },
     "sorterMkII": {
         "displayName": "Sorter Mk.II",
-        "imageUrl": "icons/Sorter_MK.II.webp",
+        "imageUrl": "icons/Sorter_MkII.webp",
         "inputs": {
             "sorterMkI": 2,
             "electricMotor": 1
@@ -1879,7 +1879,7 @@
     },
     "satelliteSubstation": {
         "displayName": "Satellite Substation",
-        "imageUrl": "icons/Satellite_substationrret.webp",
+        "imageUrl": "icons/Satellite_Substation.webp",
         "inputs": {
             "wirelessPowerTower": 1,
             "superMagneticRing": 10,
@@ -1913,7 +1913,7 @@
     },
     "sorterMkIII": {
         "displayName": "Sorter Mk.III",
-        "imageUrl": "icons/Sorter_MK.III.bmp",
+        "imageUrl": "icons/Sorter_MkIII.webp",
         "inputs": {
             "sorterMkII": 2,
             "electromagneticTurbine": 1
@@ -2088,7 +2088,7 @@
     },
     "miningMachine": {
         "displayName": "Mining Machine",
-        "imageUrl": "icons/Mining Machine.webp",
+        "imageUrl": "icons/Mining_Machine.webp",
         "inputs": {
             "ironIngot": 3,
             "circuitBoard": 2,
@@ -2159,7 +2159,7 @@
     },
     "trafficMonitor": {
         "displayName": "Traffic Monitor",
-        "imageUrl": "icons/Traffic Monitor.webp",
+        "imageUrl": "icons/Traffic_Monitor.webp",
         "inputs": {
             "ironIngot": 3,
             "gear": 2,
