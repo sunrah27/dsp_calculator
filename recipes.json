@@ -2036,7 +2036,6 @@
         "inputs": {
             "steel": 9,
             "plasmaExciter": 6,
-            "superMagneticRing": 10,
             "circuitBoard": 6,
             "photonCombiner": 9
         },
