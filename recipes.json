@@ -611,8 +611,7 @@
         "imageUrl": "icons/Gravity_Matrix.webp",
         "inputs": {
             "gravitonLens": 2,
-            "copperIngot": 2,
-            "graphene": 2
+            "quantumChip": 2
         },
         "outputs": [
             {
