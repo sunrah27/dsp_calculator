@@ -30,12 +30,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Event listener for the 'Calculate' button
-    if (calculateButton !== null) {
-        calculateButton.addEventListener('click', () => {
-            const inventory = getInventory();
-            calculate(recipes, inventory);
-        });
-    }
+    // calculateButton.addEventListener('click', () => {
+    //     const inventory = getInventory();
+    //     calculate(recipes, inventory);
+    // });
 
     // Event listener for the 'Calculate' button
     calculateButton2.addEventListener('click', () => {
