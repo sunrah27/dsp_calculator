@@ -5,7 +5,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4340XXDSXT"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-4340XXDSXT');
@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./icons/256x256.png" />
 </head>
 <body class="roboto-regular">
     <div class="container">
@@ -36,17 +37,24 @@
                         </div>
                     </div>
                 </div>
-                <button id="calculate" class="roboto-regular">Calculate</button>
+                <!-- <button id="calculate" class="roboto-regular">Calculate</button> -->
+                <button id="calculate2" class="roboto-regular">Calculate</button>
                 <div class="inventory-section">
                     <h2 class="roboto-regular">Inventory</h2>
                     <div id="inventory" class="roboto-regular"></div>
                     <button id="addItem" class="roboto-regular">Add Item</button>
                 </div>
-                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v1.0.11</a>
+                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v2.0.0</a>
             </div>
             <div class="right-column">
                 <div class="result-section">
-                    <h2 class="roboto-regular">Results</h2>
+                    <div class="result-section-header">
+                        <h2 class="roboto-regular">Results</h2>
+                        <div class="view-buttons-group">
+                            <div class="view-button" id="list-button">List</div>
+                            <div class="view-button" id="tree-button">Tree</div>
+                        </div>
+                    </div>
                     <div id="results" class="roboto-regular"></div>
                 </div>
             </div>
