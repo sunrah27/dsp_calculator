@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const recipeSelect = document.getElementById('recipe');
     const addItemButton = document.getElementById('addItem');
-    const calculateButton = document.getElementById('calculate');
     const calculateButton2 = document.getElementById('calculate2');
     const listButton = document.getElementById('list-button');
     const treeButton = document.getElementById('tree-button');
@@ -28,12 +27,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     addItemButton.addEventListener('click', () => {
         addToInventory(recipes);
     });
-
-    // Event listener for the 'Calculate' button
-    // calculateButton.addEventListener('click', () => {
-    //     const inventory = getInventory();
-    //     calculate(recipes, inventory);
-    // });
 
     // Event listener for the 'Calculate' button
     calculateButton2.addEventListener('click', () => {

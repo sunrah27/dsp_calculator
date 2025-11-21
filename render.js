@@ -64,6 +64,7 @@ function renderNode(node) {
     row.className = "node";
 
     // toggle button
+    const toggle = document.createElement("button");
     toggle.className = "toggle";
     const hasChildren = node.children && node.children.length > 0;
     toggle.textContent = hasChildren ? "−" : "·";
