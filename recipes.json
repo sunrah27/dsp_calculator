@@ -2337,7 +2337,7 @@
     },
     "depotMkI": {
         "displayName": "Depot Mk.I",
-        "imageUrl": "icons/Depot_Mk.I.webp",
+        "imageUrl": "icons/Depot_Mk.I.png",
         "inputs": {
             "titaniumAlloy": 12,
             "superMagneticRing": 10,
@@ -2427,7 +2427,7 @@
     },
     "depotMkII": {
         "displayName": "Depot Mk.II",
-        "imageUrl": "icons/Depot_Mk.II.webp",
+        "imageUrl": "icons/Depot_Mk.II.png",
         "inputs": {
             "steel": 8,
             "stoneBrick": 8
