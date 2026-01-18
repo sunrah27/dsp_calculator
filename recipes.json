@@ -2339,10 +2339,8 @@
         "displayName": "Depot Mk.I",
         "imageUrl": "icons/Depot_Mk.I.png",
         "inputs": {
-            "titaniumAlloy": 12,
-            "superMagneticRing": 10,
-            "carbonNanotube": 8,
-            "processor": 4
+            "ironIngot": 2,
+            "stoneBrick": 4
         },
         "outputs": [
             {
