@@ -26,10 +26,28 @@
             <div class="left-column">
                 <h2 class="roboto-regular">Crafting Recipe</h2>
                 <div class="input-section">
+                    <div class="tab-bar">
+                        <button class="tab-btn active roboto-regular" data-tab="item">Items</button>
+                        <button class="tab-btn roboto-regular" data-tab="building">Buildings</button>
+                    </div>
                     <div class="input-row">
                         <div class="row-items">
-                            <label for="recipe" class="roboto-regular">Select Recipe:</label>
-                            <select id="recipe" class="roboto-regular"></select>
+                            <label class="roboto-regular">Select Recipe:</label>
+                            <div class="custom-select roboto-regular" id="custom-select">
+                                <div class="custom-select-trigger" id="custom-select-trigger">
+                                    <span class="trigger-icon-wrap"><img class="trigger-icon" id="trigger-icon" src="" alt="" /></span>
+                                    <span class="trigger-label" id="trigger-label">Select a recipe…</span>
+                                    <span class="trigger-arrow">▾</span>
+                                </div>
+                                <div class="custom-select-dropdown" id="custom-select-dropdown">
+                                    <div class="custom-select-search-wrap">
+                                        <input type="text" class="custom-select-search roboto-regular" id="custom-select-search" placeholder="Search…" autocomplete="off" />
+                                    </div>
+                                    <div class="custom-select-list" id="custom-select-list"></div>
+                                </div>
+                            </div>
+                            <!-- hidden real select keeps the value for the rest of the JS -->
+                            <select id="recipe" style="display:none"></select>
                         </div>
                         <div class="row-items">
                             <label for="quantity" class="roboto-regular">Enter Quantity:</label>
@@ -44,7 +62,7 @@
                     <div id="inventory" class="roboto-regular"></div>
                     <button id="addItem" class="roboto-regular">Add Item</button>
                 </div>
-                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v2.0.4</a>
+                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v2.1.0</a>
             </div>
             <div class="right-column">
                 <div class="result-section">
