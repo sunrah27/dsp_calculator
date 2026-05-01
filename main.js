@@ -1,4 +1,3 @@
-import calculate from './calculate.js';
 import calculate2 from './calculate2.js';
 import setViewMode, { setResult } from './render.js'
 import { addToInventory, getInventory } from './inventory.js';
