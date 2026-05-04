@@ -2759,5 +2759,23 @@
         ],
         "time": 30,
         "category": "building"
+    },
+        "holoBeacon": {
+        "displayName": "Holo Beacon",
+        "imageUrl": "icons/Icon_Holo_Beacon.png",
+        "inputs": {
+            "ironIngot": 3,
+            "prism": 4,
+            "plasmaExciter": 2,
+            "circuitBoard": 2
+        },
+        "outputs": [
+            {
+                "item": "orbitalCollector",
+                "quantity": 1
+            }
+        ],
+        "time": 30,
+        "category": "building"
     }
 }

@@ -21,7 +21,15 @@
 </head>
 <body class="roboto-regular">
     <div class="container">
-        <h1 class="roboto-regular">Dyson Sphere Program Calculator</h1>
+        <div class="header-row">
+            <h1 class="roboto-regular">Dyson Sphere Program Calculator</h1>
+            <label class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
+                <span id="theme-toggle-label">Dark</span>
+                <div class="theme-toggle-track">
+                    <div class="theme-toggle-knob"></div>
+                </div>
+            </label>
+        </div>
         <div class="wrapper">
             <div class="left-column">
                 <h2 class="roboto-regular">Crafting Recipe</h2>
@@ -62,7 +70,7 @@
                     <div id="inventory" class="roboto-regular"></div>
                     <button id="addItem" class="roboto-regular">Add Item</button>
                 </div>
-                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v2.1.0</a>
+                <a href="https://github.com/sunrah27/dsp_calculator">GitHub Repo v2.1.1</a>
             </div>
             <div class="right-column">
                 <div class="result-section">
@@ -79,5 +87,29 @@
         </div>
     </div>
     <script src="main.js" type="module"></script>
+    <script>
+        (function () {
+            const root = document.documentElement;
+            const saved = localStorage.getItem('dsp-theme');
+            if (saved === 'dark') root.setAttribute('data-theme', 'dark');
+
+            document.getElementById('theme-toggle').addEventListener('click', () => {
+                const isDark = root.getAttribute('data-theme') === 'dark';
+                if (isDark) {
+                    root.removeAttribute('data-theme');
+                    localStorage.setItem('dsp-theme', 'light');
+                    document.getElementById('theme-toggle-label').textContent = 'Dark';
+                } else {
+                    root.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('dsp-theme', 'dark');
+                    document.getElementById('theme-toggle-label').textContent = 'Light';
+                }
+            });
+
+            if (saved === 'dark') {
+                document.getElementById('theme-toggle-label').textContent = 'Light';
+            }
+        })();
+    </script>
 </body>
 </html>
