@@ -5,7 +5,7 @@
 - Added Holo Beacon
 
 ## Update 01/05/2026 - v2.1.0
-- Separeted drop down list into Building and Item categories
+- Separated drop down list into Building and Item categories
 - Added Recipe image to drop down list
 
 ## Update 21/11/2025 - v2.0.4
